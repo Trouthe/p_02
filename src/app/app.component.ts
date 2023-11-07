@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'p_02';
+
+  test () {
+    console.log ("Works.");
+  }
 }
